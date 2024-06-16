@@ -1,0 +1,15 @@
+import = ["~/.config/alacritty/catppuccin-mocha.toml"]
+
+[shell]
+	program = "tmux"
+
+[window]
+	startup_mode = 'Maximized'
+	padding = { x = 1, y = 1 }
+[font]
+	normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+
+[cursor]
+	style = { blinking = "on" }
+	blink_timeout = 0
+
