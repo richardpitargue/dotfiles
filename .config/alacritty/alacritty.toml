@@ -2,6 +2,7 @@ import = ["~/.config/alacritty/catppuccin-mocha.toml"]
 
 [shell]
 	program = "tmux"
+  args = ["new", "-A", "-s main_session"]
 
 [window]
 	startup_mode = 'Maximized'
